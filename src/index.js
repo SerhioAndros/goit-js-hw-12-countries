@@ -7,7 +7,7 @@ import makeAlert from './templates/alert.hbs';
 const inputNode = document.querySelector('.input-field');
 const wrapperNode = document.querySelector('.output-wrapper');
 
-inputNode.addEventListener('input', _.debounce(dataRequest, 1000));
+inputNode.addEventListener('input', _.debounce(dataRequest, 500));
 
 function dataRequest() {
   if (inputNode.value === '') return false;
