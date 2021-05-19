@@ -46,3 +46,70 @@
   background-color: rgba(92, 170, 214, 0.753);
   color: #4d0f0f;
 }
+
+h1 {
+  font-weight: bold;
+  // display: block;
+  text-align: center;
+  margin-left: 0 auto;
+}
+.accent {
+  font-weight: bold;
+}
+
+.output-text-inf,
+.output-img {
+  display: line;
+  width: 48%;
+}
+
+img {
+  display: block;
+  width: 250px;
+  height: 150px;
+  // border: 1px solid black;
+}
+
+.output-info {
+  margin: auto;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list {
+  list-style: none;
+}
+li {
+  list-style: square;
+  margin-bottom: 10px;
+}
+ul {
+  margin-top: 7px;
+}
+body {
+  background-color: rgb(240, 230, 230);
+}
+.alert-message {
+  display: block;
+  width: 300px;
+  height: 120px;
+  background-color: rgba(240, 9, 9, 0.829);
+  font-size: 25px;
+  color: #130303;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+.countries-list {
+  margin-left: 35%;
+  margin-top: 20px;
+}
+
+.countries-list li {
+  list-style: disc;
+  font-size: 20px;
+  font-weight: 500;
+}
